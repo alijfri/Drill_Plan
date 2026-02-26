@@ -1,0 +1,9 @@
+# Requirements for running the MILP (Mixed Integer Linear Programming) drill plan optimizer
+# Install with: pip install -r requirements.txt
+
+numpy>=1.20.0
+pyomo>=6.0.0
+gurobipy>=9.0.0  
+
+# Note: tkinter comes bundled with Python on macOS and Windows.
+# On Linux, install it separately: sudo apt-get install python3-tk (Ubuntu/Debian)
